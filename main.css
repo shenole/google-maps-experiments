@@ -1,0 +1,46 @@
+* {
+	margin: 0;
+	padding: 0;
+	padding-top: 25px;
+}
+
+html, body {
+	width: 100%;
+	height: 100%;
+	background-color: black;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+}
+
+form {
+  color: white;
+}
+
+input {
+  color: #333333;
+}
+
+#display-map-one {
+	width: 900px;
+	height: 400px;
+	margin: auto;
+}
+
+#map {
+	width: 1000px;
+	height: 750px;
+	margin: auto;
+}
+
+button {
+  background: red;
+  color: white;
+  padding: 10px;
+}
+
+button:hover {
+  background: orange;
+}

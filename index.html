@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+  <h1>API Proj-02</h1>
+  <form>
+    LAT ONE:<input type="number" id="latOne">
+    LNG ONE:<input type="number" id="lngOne">
+    LAT TWO:<input type="number" id="latTwo">
+    LNG TWO:<input type="number" id="lngTwo">
+    LAT THREE:<input type="number" id="latThree">
+    LNG THREE:<input type="number" id="lngThree">
+  </form>
+  <button onclick="echoMap()">Submit</button>
+	<div id="map"></div>
+
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAp9tpFzFgqHfkPTHWJSydE1NPAw68oBjA&callback=initMap" async defer></script>
+	<script src="app.js"></script>
+</body>
+</html>
